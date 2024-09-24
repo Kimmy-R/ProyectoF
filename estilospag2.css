@@ -1,0 +1,292 @@
+
+#headerMarca{
+    background:#000000;
+    height: 85px;
+}
+#headerSeccionLogo{
+    float: left;
+	padding: 10px  0 0 20px;
+	text-decoration: none;
+}
+#headerSeccionLogo:hover {
+    color: black;
+    background-color: black;
+    width: 170px;
+    height: 69px;
+    border-radius: 10%;
+}
+#headerSeccionLogo .NomMarca {
+    display: block;
+    font-weight:bolder;
+    font-size: 2.1em;
+    color: #ffff;
+}
+#headerSeccionLogo .DescMarca {
+    display: block;
+    font-weight: 300;
+    font-size: 1em;
+    color: white;
+}
+.BarNavegacion{
+    float: right;
+    margin-right: 5px;
+    margin-top: 0px;
+    color: #ffff;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 1px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 8px;
+}
+#linea{
+    height: 70px;
+    width: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+html{
+    background: linear-gradient(#5f666a, #99d4f6);
+}
+
+titulo{
+    text-align: center;
+}
+
+.tabla{
+    font-family: sans-serif;
+    display: table;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.cont{
+    border: solid 3px rgb(33, 90, 123)
+
+    
+}
+
+table {
+    color: darkslategrey;
+}
+thead {
+    background-color: #99d4f6 ; opacity: .5;
+   
+
+}
+
+th {
+    padding: 20xp 15xp;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15xp;
+    border-bottom: solid 1xp rgb(33, 90, 123); 
+    text-align: center;
+
+}
+
+tbody tr {
+    cursor: pointer;
+
+}
+
+tbody tr:hover{
+    background: #99d4f6;
+}
+
+
+
+a,
+a:link {
+  font-family: inherit;
+  text-decoration: none;
+}
+
+
+
+/* Modal*/
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  
+    display: none;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    height: 100%;
+  
+    background: hsla(0, 0%, 40%, .6);
+  }
+  
+  /* tarjeta modal */
+  .modal-container:target {
+    display: flex;
+  }
+  
+  .modal {
+    width: 700px;
+    padding: 4rem 2rem;
+    border-radius: .8rem;
+  
+    color: var(--light);
+    background: var(--background);
+    box-shadow: .4rem .4rem 2.4rem .2rem hsla(236, 50%, 50%, 0.3);
+    position: relative;
+  
+    overflow: hidden;
+  }
+  
+  .modal__details {
+    text-align: center;
+  
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .4);
+  }
+  
+  .modal__title {
+    font-size: 3.2rem;
+  }
+  
+  .modal__description {
+    margin-top: 2rem;
+  
+    font-size: 1.6rem;
+    font-style: italic;
+  }
+  
+  .modal__text {
+    padding: 0 4rem;
+    margin-bottom: 4rem;
+  
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+  
+  .modal__text::before {
+    content: '';
+  
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+  
+    width: 18rem;
+    height: 18rem;
+    border: 1px solid hsla(0, 0%, 100%, .2);
+    border-radius: 100rem;
+  
+    pointer-events: none;
+  }
+  
+  .modal__btn {
+    padding: 1rem 1.6rem;
+    border: 1px solid hsla(0, 0%, 100%, .4);
+    border-radius: 100rem;
+  
+    color: inherit;
+    background: transparent;
+    font-size: 1.4rem;
+    font-family: inherit;
+    letter-spacing: .2rem;
+  
+    transition: .2s;
+    cursor: pointer;
+  }
+  
+  .modal__btn:hover,
+  .modal__btn:focus {
+    border-color: hsla(0, 0%, 100%, .6);
+    transform: translateY(-.2rem);
+  }
+
+
+
+/*
+body, .Emergente{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Emergente{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+#btnEmergente:checked ~ .Emergente {
+    opacity: 1;
+    visibility: visible;
+}
+#btnCerrar:active ~ .Emergente {
+    opacity: 1;
+    visibility:collapse;
+}
+
+
+.contenedor {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 7px 25px rgba(0,0,0,.6);
+    transition: all 500ms ease;
+}
+
+.contenedor header {
+    padding: 10px;
+    background: #99d4f6;
+    color: #fff;
+
+
+}
+
+.contenedor label {
+    position: absolute;
+    top: 10px;
+    right:10px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+#btnEmergente{
+    display: none;
+}
+
+.lbl-Emergente{
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    */

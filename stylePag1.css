@@ -1,0 +1,143 @@
+/*
+                CABECERA - CSS
+*/
+#headerMarca{
+    background:#2d2d2d;
+    height: 90px;
+}
+#headerSeccionLogo{
+    float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+#headerSeccionLogo:hover {
+    color: black;
+    background-color: black;
+    width: 320px;
+    height: 70px;
+    
+}
+#headerSeccionLogo .NomMarca {
+    display: block;
+    font-weight:bolder;
+    font-size: 30px;
+    color: #ffff;
+}
+#headerSeccionLogo .DescMarca {
+    display: block;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+.BarNavegacion{
+    float: right;
+    margin-right: 5px;
+    margin-top: 0px;
+    
+    color: #ffff;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: auto;
+}
+
+
+/*
+        LOGIN   
+
+*/
+.divConten{
+    padding-left: 40%;
+    padding-right:40%;
+    padding-top: 10px;
+}
+.contenedor{
+    justify-content:space-around;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 0 0 20px rgb(88, 88, 88);
+    border-radius: 8px;
+    width: 400px;
+    height: 250px;
+}
+.grid_inicio{
+    margin: 25px;
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 1fr 1fr 50px;
+    justify-content: center;
+}
+.input-login{
+    margin-top: 17px;
+    justify-content: left;
+    padding-left: 0;
+    width: 140px;
+    height: 22px;
+    padding-left: 8px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #c7b4b4;
+}
+.icon-image{
+    
+    width: 45px;
+    margin-top: 10px;
+    padding-left: 60%;
+    
+
+}
+.botonInicio{
+    justify-self:end;
+    padding-right: 5%;
+    padding-top: 45px;
+}
+.botonRegistro{    
+    padding-top: 45px;
+    padding-left: 5%;
+}
+.btn{
+    background-color: aliceblue;
+    font-weight: 550;
+    color: rgb(8, 9, 110);
+    border-width: 1px;
+    border-color: #c7b4b4;
+    font-size:14px;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+.btn:hover{
+    background-color: rgb(18, 125, 219);
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+    border: rgb(18, 125, 219);
+    font-size: 14px;
+}
+body {
+    min-height: 95vh; /* Altura min del cuerpo de la pagina */
+    display: flex; /* metodo Flexbox para fijar el pie de pagina al final */
+    flex-direction: column; /* direccion de tipo columna */
+  }
+footer {
+    margin-top: auto; /* se empuja hasta el final, estableciendo su propio margen */
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.piePag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    height: 20px;
+    margin-bottom: -15px;
+    font-size: 8px;
+}

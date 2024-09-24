@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="estilospag2.css">
+    </head>
+    <body>
+        <header id="headerMarca">
+            <a id="headerSeccionLogo" href="proyecto.html">
+                    <span class="NomMarca">MYNES Co.</span>
+                    <span class="DescMarca" >Software Corporation</span>
+            </a>
+            <nav class="BarNavegacion">
+                <ul>
+                    <li><img class="logoEmp" src="fotos/ultimo (1).png"></li>
+                    <li><div id="linea"></div></li>
+                    <li><img id="logoU" src="fotos/Logo-UniversitariadeColombia.png"></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="tabla">
+        <div>
+            
+            <h1 class="Encabezado">SISTEMA DE GESTIÓN</h1>
+            <p>Estudiante</p> 
+            <p class="Menu"></p>  
+        </div>
+        <div class="cont">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id_Laboratorio</th>
+                        <th>Laboratorio</th>
+                        <th>Capacidad</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>000211</td>
+                        <td>Electromagnetismo</td>
+                        <td>20</td>
+                        <td>Libre</td>
+                    </tr>
+                    <tr>
+                        <td>000211</td>
+                        <td>Electromagnetismo</td>
+                        <td>20</td>
+                        <td>Libre</td>
+                    </tr>
+                    <tr>
+                        <td>000211</td>
+                        <td>Electromagnetismo</td>
+                        <td>20</td>
+                        <td>Libre</td>
+                    </tr>
+                    <tr>
+                        <td>000211</td>
+                        <td>Electromagnetismo</td>
+                        <td>20</td>
+                        <td>Libre</td>
+                    </tr>
+                    <tr>
+                        <td>000211</td>
+                        <td>Electromagnetismo</td>
+                        <td>20</td>
+                        <td>Libre</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> 
+        <a href="#modal-opened" class="link-1" id="modal-closed"><button>Solicitar</button></a>
+        <!--Declaración del contenedor modal-->
+            <div class="modal-container" id="modal-opened">
+            <div class="modal">
+                 <!--Contenido del modal-->
+                
+                <!--Acción al modal cerrar-->
+                <a href="modal-closed" class="link2" id="modal-closed"></a>
+
+                
+                <div class="modal" id="modal">
+                <a href="#" class="modal-bg"></a>
+                <div class="modal-content">
+                    <div class="modal__details">
+                        <h1 class="modal__title">SOLICITUD</h1>
+                        <p class="modal__description">Ingrese los datos correspondientes:</p>
+                    </div>
+
+                        <p class="modal__text">Nombre del solicitante </p>
+                        <input type="text" id="Nameinput" name="Nameinput" value="Ingrese nombre"><p></p>
+                        <input type="text" id="NameDoc" name="NameDoc" value="Ingrese docente"><p></p>
+                        <p class="modal__text">Jornada </p>
+                        <input type="radio" id="Opc1" name="Opc" value="Diurna"><p>Diurna</p>
+                        <input type="radio" id="Opc2" name="Opc" value="Nocturna"><p>Nocturna</p>
+                        <input type="text" id="Semesinput" name="Semesinput" value="Ingrese semestre"><p></p>
+                        <a href="#modal" class="open">SOLICITAR</a>
+                </div>
+                </div>
+            </div>
+            </div>
+    </div>
+    </body>
+
+</html>

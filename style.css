@@ -1,0 +1,105 @@
+/*
+                CABECERA - CSS
+*/
+#headerMarca{
+    background:#2d2d2d;
+    height: 85px;
+}
+#headerSeccionLogo{
+    float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+#headerSeccionLogo:hover {
+    color: black;
+    background-color: black;
+    width: 250px;
+    height: 70px;
+    border-radius: 10%;
+}
+#headerSeccionLogo .NomMarca {
+    display: block;
+    font-weight:bolder;
+    font-size: 100%;
+    color: #ffff;
+}
+#headerSeccionLogo .DescMarca {
+    display: block;
+    font-weight: 300;
+    font-size: 1em;
+    color: white;
+}
+.BarNavegacion{
+    float: right;
+    margin-right: 5px;
+    margin-top: 0px;
+    color: #ffff;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: auto;
+}
+#divisor{
+    
+    height: 70px;
+    width: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+            BODY -CSS
+*/
+
+p .DescripcionTitle{
+    text-align: center;
+}
+
+.DivTitle-Body{
+    height: 50px;
+}
+
+
+
+
+
+
+
+/*
+                LOGIN USUARIO
+*/
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#contenedor > div {
+    width: 48%;
+    
+}
+.Usuario{
+    text-align: right;
+
+}
+.Contrasena{
+    text-align:left;
+    position: relative;
+    left: 20px;
+}

@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+.head1 {
+    font-size: 40px;
+    color: #7550ca;
+
+    text-align: center;
+    margin: 2%;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.head2 {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+
+body {
+    margin: 0 auto;
+    background-position: center;
+    background-size: contain;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin: 5%;
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.menu-log {
+    right: auto;
+    float: right; 
+}
+
+
+
+.body_sec {
+    margin: 100px;
+    justify-content: center;
+    display: grid;    
+
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 20%;
+    margin-top: 5%;
+    gap: 5%;
+}
+
+
+
+/*TARJETAS*/
+
+.tarjeta{
+    justify-content:space-between;
+    width:280px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 10px 0 10px;;
+}
+
+.cuerpo{
+    padding: 15px;
+   }
+
+img {
+    width: 40%;   
+}
+
+.pie{
+    background: #6699ff;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
+}
+
+
+
+/*PIE DE PÁGINA*/
+
+footer {
+    width: 100%;
+    bottom: 0px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#headerSeccionLogo{
+    float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+#headerSeccionLogo:hover {
+    color: black;
+    background-color: black;
+    width: 250px;
+    height: 70px;
+    border-radius: 10%;
+}
+#headerSeccionLogo .NomMarca {
+    display: block;
+    font-weight:bolder;
+    font-size: 100%;
+    color: #ffff;
+}
+#headerSeccionLogo .DescMarca {
+    display: block;
+    font-weight: 300;
+    font-size: 1em;
+    color: white;
+}
+.BarNavegacion{
+    float: right;
+    margin-right: 5px;
+    margin-top: 0px;
+    color: #ffff;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: auto;
+}
+#divisor{
+    
+    height: 70px;
+    width: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+  background-color: white;
+}
+
+#logoU {
+    width: 90%;
+}
+
+
+
+

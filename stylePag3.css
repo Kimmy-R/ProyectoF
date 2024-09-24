@@ -1,0 +1,127 @@
+.head1 {
+    font-size: 40px;
+    color: #7550ca;
+    font-weight: bold;
+    text-align: center;
+}
+
+.head2 {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+
+body {
+    margin: 0 auto;
+    background-position: center;
+    background-size: contain;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #7550ca;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* .menu-log class is used to position the login link 
+      on the right side of the menu bar */
+.menu-log {
+    right: auto;
+    float: right; /* Floats the login link to the right */
+}
+
+footer {
+    width: 100%;
+    bottom: 0px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.body_sec {
+    margin: 100px;
+ 
+    justify-content: center;
+    
+}
+
+
+/* listooo */
+.Content{
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 20%;
+    margin-top: 5%;
+    
+    
+
+    
+}
+
+
+
+/*TARJETA*/
+
+.tarjeta{
+
+    justify-content:space-between;
+    width:300px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: sans-serif;
+    
+}
+
+.titulo{
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 10px 0 10px;;
+
+}
+
+.cuerpo{
+
+    padding: 15px;
+    
+   }
+
+img {
+    
+    width: 40%;
+    
+}
+
+
+
+.pie{
+
+    background: #6699ff;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
+
+}
+
+
+
